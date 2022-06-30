@@ -10,10 +10,4 @@
 );
 
 @use 'custom-style';
-
-/* purgecss start ignore */
-@use "components/1_main-header" as main_header;
-@use "components/1_menu" as menu;
-@use "components/2_user-menu" as user_menu;
-
-/* purgecss end ignore */
+@use 'components/**/*.scss';
